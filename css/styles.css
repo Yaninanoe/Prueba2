@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+ul {
+    list-style-type: none;
+}
+h1 {
+text-align: center;
+}
+h2 {text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.px {
+    font-size: 16px;
+}
+.rem {
+    font-size: 1rem;
+}
+/*TIPO DE LETRA*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #c5c0c0;
+}
+header {
+    background-color: #232323;
+    padding: 10px 0 ;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    opacity: .9;
+    
+}
+header img {
+    width: 180px;
+    border-radius: 40px;
+}
+.lista-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 50px;
+}
+.enlaces {
+    color: #232323;
+    background-color: #c5c0c0;
+    padding: 5px 10px;
+    border-radius: 15px;
+
+}
+/*SACAMOS LINEAS DE NAVEGACION*/
+
+a {
+text-decoration: none;
+}
+/*NUENA PRACTICA SIEMPRE PARA TODAS LA IMAGENES*/
+img {
+    max-width: 100%;
+}
+
+.bienvenidos{
+    background-image: url(../img/bienvenida-imagen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bienvenidos h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+section {
+    margin: 50px o;
+}
+
+/*WHATSAPP*/
+.redes-sociales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: fixed;
+    bottom: 20%;
+    right: 30px;
+}
+.iconoredessociales{
+    width: 40px;
+}
+
+
+
+/*MISMA CLASE PARA TODAS LAS IMAGENES*/
+
+.celulares {
+    background-color: antiquewhite;
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    text-align: center;
+    margin-right: 20px;
+    position: relative;
+}
+
+.celulares img {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+.celulares p {
+    margin: 10px;
+}
+.celulares button{
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/*CLASE PADRE FLEXBOX PAGINA DE INICIO MOVILES ELECTRODOMESTICOS*/
+
+.padre-fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+/*CLASE DESCUENTOS*/
+
+.descuentos{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    background-color: green;
+}
+
+section {
+    margin: 30px;
+}
+
+footer {
+    padding: 30px;
+    background-color: #232323;
+    color: #c5c0c0;
+    text-align: center;
+}
+
+/*CSS PARA LA SECCION MOVILES*/
+
+.tel {
+    background-image: url(../img/imagen-seccion-moviles.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tel h1 {
+    background-color: #c5c0c0;
+    text-align: center;
+}
+
+/*CSS PARA LA SECCION ACCESORIOS*/
+
+.imagenaccesorios {
+    background-image: url(../img/fondo-rojo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagenaccesorios h2 {
+background-color: #c5c0c0;
+color: #232323;
+}
+
+.electro {
+    background-image: url(../img/iconos-colores-diferentes-tipos-electrodomesticos_1284-44063.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
